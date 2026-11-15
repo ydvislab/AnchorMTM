@@ -1,0 +1,33 @@
+{
+ "dataset": "Ring",
+ "preparation": "$ANCHORMTM_INPUTS/Ring/preparation",
+ "baselines": {
+  "TMTM": {
+   "SNS": 0.19697496988801275,
+   "SNS_frames": 32,
+   "TW": 0.47619047619047616,
+   "TW_frames": 1,
+   "TW_k": 3,
+   "TD": 1.0923076923076915,
+   "matched_steps": 143,
+   "NPE": 0.1755693829125843,
+   "frames": 40,
+   "NPE_table1": 0.1756,
+   "NPE_check": "PASS"
+  },
+  "ST-MTM": {
+   "SNS": 0.07942011205325343,
+   "SNS_frames": 32,
+   "TW": 0.9285714285714286,
+   "TW_frames": 1,
+   "TW_k": 3,
+   "TD": 1.5282051282051263,
+   "matched_steps": 143,
+   "NPE": 0.24632695944063748,
+   "frames": 40,
+   "NPE_table1": 0.2463,
+   "NPE_check": "PASS"
+  }
+ },
+ "pipeline_status": "scored stored anchors from $ANCHORMTM_INPUTS/Ring/baseline_npe"
+}

@@ -1,0 +1,12 @@
+% Fig. 1 with an upward East arrow beside the stacked map (v42). The map spans y = 26--112.5 pt; its label starts at x = 26 pt.
+\documentclass[border=0pt]{standalone}
+\usepackage{mathptmx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}[x=1pt,y=1pt]
+\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics{anchor_storms_overview_original.pdf}};
+\draw[-{Stealth[length=6pt,width=5pt]},line width=1pt] (5,30) -- (5,109);
+\node[rotate=90,font=\fontsize{13}{15}\selectfont] at (15,69.5) {East};
+\end{tikzpicture}
+\end{document}

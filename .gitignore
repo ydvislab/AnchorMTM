@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+output/
+tmp/
+inputs/
+data/*
+!data/README.md
+*.egg-info/

@@ -1,0 +1,106 @@
+{
+ "Tangaroa": {
+  "TMTM": {
+   "coverage": 0.9095433255269321,
+   "mean_step_error": 1.2842613392723092,
+   "reversal_rate": 53.99841646872526,
+   "clear_steps": 1263,
+   "error_order_switch": 1.2842613392723092,
+   "error_no_switch": null,
+   "steps_with_switch": 200,
+   "steps_without": 0
+  },
+  "ST-MTM": {
+   "coverage": 0.9095433255269321,
+   "mean_step_error": 2.3315709936615536,
+   "reversal_rate": 38.71733966745843,
+   "clear_steps": 1263,
+   "error_order_switch": 2.5491123193203538,
+   "error_no_switch": 0.6040737615595133,
+   "steps_with_switch": 168,
+   "steps_without": 32
+  },
+  "Exact": {
+   "coverage": 0.9095433255269321,
+   "mean_step_error": 1.676813690964092,
+   "reversal_rate": 22.327790973871736,
+   "clear_steps": 1263,
+   "error_order_switch": 1.7240637674711967,
+   "error_no_switch": 1.0582769751465961,
+   "steps_with_switch": 179,
+   "steps_without": 21
+  },
+  "10%": {
+   "coverage": 0.9095433255269321,
+   "mean_step_error": 1.5275283701996167,
+   "reversal_rate": 7.521773555027711,
+   "clear_steps": 1263,
+   "error_order_switch": 1.6104871727635008,
+   "error_no_switch": 0.17453731445716325,
+   "steps_with_switch": 185,
+   "steps_without": 15
+  },
+  "reference": {
+   "coverage": 0.9095433255269321,
+   "mean_step_error": 0.0,
+   "reversal_rate": 0.0,
+   "clear_steps": 1263,
+   "error_order_switch": 0.0,
+   "error_no_switch": 0.0,
+   "steps_with_switch": 157,
+   "steps_without": 43
+  }
+ },
+ "Cylinder": {
+  "TMTM": {
+   "coverage": 0.5448717948717948,
+   "mean_step_error": 8.140062069574231,
+   "reversal_rate": 49.75767366720517,
+   "clear_steps": 619,
+   "error_order_switch": 8.60086656924482,
+   "error_no_switch": 0.3881412122125532,
+   "steps_with_switch": 90,
+   "steps_without": 11
+  },
+  "ST-MTM": {
+   "coverage": 0.5448717948717948,
+   "mean_step_error": 4.6989181267742595,
+   "reversal_rate": 39.25686591276252,
+   "clear_steps": 619,
+   "error_order_switch": 5.461694010283303,
+   "error_no_switch": 1.1831795367934899,
+   "steps_with_switch": 68,
+   "steps_without": 33
+  },
+  "Exact": {
+   "coverage": 0.5448717948717948,
+   "mean_step_error": 3.8858258855221086,
+   "reversal_rate": 18.901453957996768,
+   "clear_steps": 619,
+   "error_order_switch": 4.684018314691752,
+   "error_no_switch": 0.8822828223104756,
+   "steps_with_switch": 67,
+   "steps_without": 34
+  },
+  "10%": {
+   "coverage": 0.5448717948717948,
+   "mean_step_error": 0.4226415547393512,
+   "reversal_rate": 2.10016155088853,
+   "clear_steps": 619,
+   "error_order_switch": 0.46237285784348836,
+   "error_no_switch": 0.30272525809777334,
+   "steps_with_switch": 62,
+   "steps_without": 39
+  },
+  "reference": {
+   "coverage": 0.5448717948717948,
+   "mean_step_error": 0.0,
+   "reversal_rate": 0.0,
+   "clear_steps": 619,
+   "error_order_switch": 0.0,
+   "error_no_switch": 0.0,
+   "steps_with_switch": 37,
+   "steps_without": 64
+  }
+ }
+}

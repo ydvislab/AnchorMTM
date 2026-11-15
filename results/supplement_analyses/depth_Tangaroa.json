@@ -1,0 +1,32 @@
+{
+ "epsilon_0.02": {
+  "leaves": 6724,
+  "vanishing": 0,
+  "below_1pct": 0,
+  "below_half_persistence": 11
+ },
+ "epsilon_0.05": {
+  "leaves": 6724,
+  "vanishing": 0,
+  "below_1pct": 0,
+  "below_half_persistence": 6
+ },
+ "epsilon_0.1": {
+  "leaves": 6724,
+  "vanishing": 0,
+  "below_1pct": 0,
+  "below_half_persistence": 163
+ },
+ "epsilon_0.2": {
+  "leaves": 6724,
+  "vanishing": 46,
+  "below_1pct": 68,
+  "below_half_persistence": 456
+ },
+ "epsilon_0": {
+  "leaves": 6724,
+  "vanishing": 0,
+  "below_1pct": 0,
+  "below_half_persistence": 27
+ }
+}

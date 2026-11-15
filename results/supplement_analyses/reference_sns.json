@@ -1,0 +1,17 @@
+{
+ "Ring": {
+  "reference_SNS": 0.132527554346577,
+  "frames": 32,
+  "STMTM_SNS_check": 0.07942011205325343
+ },
+ "Wildfires": {
+  "reference_SNS": 0.06139370828828591,
+  "frames": 31,
+  "STMTM_SNS_check": 0.01857078258876254
+ },
+ "Storms": {
+  "reference_SNS": 0.08532733576970866,
+  "frames": 740,
+  "STMTM_SNS_check": 0.060834952516295636
+ }
+}

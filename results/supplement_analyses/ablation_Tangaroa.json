@@ -1,0 +1,18 @@
+{
+ "0": {
+  "frames": 201,
+  "width_bound": 7.500205811452768,
+  "threshold_only": 8.192093045670887,
+  "point_order": 8.192093045670887,
+  "full_search": 7.999346868915004,
+  "at_bound": 68
+ },
+ "0.09": {
+  "frames": 201,
+  "width_bound": 2.6062232155228338,
+  "threshold_only": 4.711911827255861,
+  "point_order": 4.139884600806045,
+  "full_search": 3.937316236915365,
+  "at_bound": 5
+ }
+}

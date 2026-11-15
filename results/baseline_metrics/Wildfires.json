@@ -1,0 +1,33 @@
+{
+ "dataset": "Wildfires",
+ "preparation": "$ANCHORMTM_INPUTS/Wildfires/preparation",
+ "baselines": {
+  "TMTM": {
+   "SNS": 0.12198310564637538,
+   "SNS_frames": 31,
+   "TW": 0.8443589743589743,
+   "TW_frames": 4,
+   "TW_k": 5,
+   "TD": 7.26007326007326,
+   "matched_steps": 112,
+   "NPE": 0.2280042543503018,
+   "frames": 32,
+   "NPE_table1": 0.228,
+   "NPE_check": "PASS"
+  },
+  "ST-MTM": {
+   "SNS": 0.01857078258876254,
+   "SNS_frames": 31,
+   "TW": 0.89682837995338,
+   "TW_frames": 4,
+   "TW_k": 5,
+   "TD": 1.3277167277167268,
+   "matched_steps": 112,
+   "NPE": 0.3179595394390389,
+   "frames": 32,
+   "NPE_table1": 0.318,
+   "NPE_check": "PASS"
+  }
+ },
+ "pipeline_status": "scored stored anchors from $ANCHORMTM_INPUTS/Wildfires/baseline_npe"
+}

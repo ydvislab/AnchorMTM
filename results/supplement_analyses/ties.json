@@ -1,0 +1,39 @@
+{
+ "Ring": {
+  "frames": 40,
+  "frames_with_near_ties": 0,
+  "smallest": null,
+  "largest": null
+ },
+ "Wildfires": {
+  "frames": 32,
+  "frames_with_near_ties": 0,
+  "smallest": null,
+  "largest": null
+ },
+ "Storms": {
+  "frames": 744,
+  "frames_with_near_ties": 0,
+  "smallest": null,
+  "largest": null
+ },
+ "PM25": {
+  "frames": 744,
+  "frames_with_near_ties": 0,
+  "smallest": null,
+  "largest": null
+ },
+ "Cylinder": {
+  "frames": 102,
+  "frames_with_near_ties": 55,
+  "smallest": 3.2735966715158327e-13,
+  "largest": 1.935092504012914e-07,
+  "exact_merge_error_original_tree": 9.962987190803574e-08
+ },
+ "Tangaroa": {
+  "frames": 201,
+  "frames_with_near_ties": 1,
+  "smallest": 5.960464477539063e-08,
+  "largest": 5.960464477539063e-08
+ }
+}

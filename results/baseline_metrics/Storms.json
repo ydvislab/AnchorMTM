@@ -1,0 +1,33 @@
+{
+ "dataset": "Storms",
+ "preparation": "$ANCHORMTM_INPUTS/Storms/preparation",
+ "baselines": {
+  "TMTM": {
+   "SNS": 0.14204075004148228,
+   "SNS_frames": 740,
+   "TW": 0.6515151515151514,
+   "TW_frames": 11,
+   "TW_k": 3,
+   "TD": 33.74212454212459,
+   "matched_steps": 2737,
+   "NPE": 0.5752859558929264,
+   "frames": 744,
+   "NPE_table1": 0.5753,
+   "NPE_check": "PASS"
+  },
+  "ST-MTM": {
+   "SNS": 0.060834952516295636,
+   "SNS_frames": 740,
+   "TW": 0.8376623376623378,
+   "TW_frames": 11,
+   "TW_k": 3,
+   "TD": 5.487912087912075,
+   "matched_steps": 2737,
+   "NPE": 0.45785829943727696,
+   "frames": 744,
+   "NPE_table1": 0.4579,
+   "NPE_check": "PASS"
+  }
+ },
+ "pipeline_status": "scored stored anchors from $ANCHORMTM_INPUTS/Storms/baseline_npe"
+}

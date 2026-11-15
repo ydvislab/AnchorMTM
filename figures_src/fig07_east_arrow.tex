@@ -1,0 +1,12 @@
+% Fig. 7 with an upward East arrow beside the AnchorMTM panels (v42). Panels span y = 342.3--594.4 pt of the original.
+\documentclass[border={2pt 0pt 0pt 0pt}]{standalone}
+\usepackage{mathptmx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}[x=1pt,y=1pt]
+\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics{anchor_storms_budget_maps_original.pdf}};
+\draw[-{Stealth[length=11pt,width=9pt]},line width=1.8pt] (-12,346) -- (-12,592);
+\node[rotate=90,font=\fontsize{24}{26}\selectfont] at (-32,469) {East};
+\end{tikzpicture}
+\end{document}
